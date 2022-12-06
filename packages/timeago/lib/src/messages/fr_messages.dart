@@ -25,6 +25,10 @@ class FrMessages implements LookupMessages {
   @override
   String days(int days) => 'environ $days jours';
   @override
+  String aWeek(int days) => 'environ une semaine';
+  @override
+  String weeks(int weeks) => 'environ $weeks semaines';
+  @override
   String aboutAMonth(int days) => 'environ un mois';
   @override
   String months(int months) => 'environ $months mois';
@@ -60,6 +64,10 @@ class FrShortMessages implements LookupMessages {
   String aDay(int hours) => 'un jour';
   @override
   String days(int days) => '$days jours';
+  @override
+  String aWeek(int days) => 'une semaine';
+  @override
+  String weeks(int weeks) => '$weeks semaines';
   @override
   String aboutAMonth(int days) => 'un mois';
   @override
