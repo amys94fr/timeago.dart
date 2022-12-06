@@ -73,6 +73,7 @@ String format(DateTime date,
   final num minutes = seconds / 60;
   final num hours = minutes / 60;
   final num days = hours / 24;
+  final num weeks = days / 7;
   final num months = days / 30;
   final num years = days / 365;
 
@@ -89,8 +90,12 @@ String format(DateTime date,
     result = messages.hours(hours.round());
   } else if (hours < 48) {
     result = messages.aDay(hours.round());
-  } else if (days < 30) {
+  } else if (days < 7) {
     result = messages.days(days.round());
+  } else if (weeks < 2) {
+    result = messages.aWeek(days.round());
+  } else if (weeks < 3) {
+    result = messages.weeks(weeks.round());
   } else if (days < 60) {
     result = messages.aboutAMonth(days.round());
   } else if (days < 365) {
