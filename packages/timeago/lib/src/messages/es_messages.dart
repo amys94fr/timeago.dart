@@ -25,6 +25,10 @@ class EsMessages implements LookupMessages {
   @override
   String days(int days) => '$days días';
   @override
+  String aWeek(int days) => 'una semana';
+  @override
+  String weeks(int weeks) => '$weeks semanas';
+  @override
   String aboutAMonth(int days) => 'un mes';
   @override
   String months(int months) => '$months meses';
@@ -60,6 +64,10 @@ class EsShortMessages implements LookupMessages {
   String aDay(int hours) => '~1 día';
   @override
   String days(int days) => '$days días';
+  @override
+  String aWeek(int days) => '~1 semana';
+  @override
+  String weeks(int weeks) => '$weeks semanas';
   @override
   String aboutAMonth(int days) => '~1 mes';
   @override
