@@ -33,6 +33,12 @@ abstract class LookupMessages {
   /// Format when time is in days
   String days(int days);
 
+  /// Format when time is a day
+  String aWeek(int days);
+
+  /// Format when time is in days
+  String weeks(int weeks);
+
   /// Format when time is about a month
   String aboutAMonth(int days);
 
