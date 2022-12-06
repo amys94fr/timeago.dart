@@ -1,3 +1,4 @@
+/*
 export 'package:timeago/src/messages/am_messages.dart';
 export 'package:timeago/src/messages/ar_messages.dart';
 export 'package:timeago/src/messages/az_messages.dart';
@@ -7,12 +8,16 @@ export 'package:timeago/src/messages/cs_messages.dart';
 export 'package:timeago/src/messages/da_messages.dart';
 export 'package:timeago/src/messages/de_messages.dart';
 export 'package:timeago/src/messages/dv_messages.dart';
+*/
 export 'package:timeago/src/messages/en_messages.dart';
 export 'package:timeago/src/messages/es_messages.dart';
+/*
 export 'package:timeago/src/messages/et_messages.dart';
 export 'package:timeago/src/messages/fa_messages.dart';
 export 'package:timeago/src/messages/fi_messages.dart';
+*/
 export 'package:timeago/src/messages/fr_messages.dart';
+/*
 export 'package:timeago/src/messages/gr_messages.dart';
 export 'package:timeago/src/messages/he_messages.dart';
 export 'package:timeago/src/messages/hi_messages.dart';
@@ -23,7 +28,9 @@ export 'package:timeago/src/messages/ja_messages.dart';
 export 'package:timeago/src/messages/km_messages.dart';
 export 'package:timeago/src/messages/ko_messages.dart';
 export 'package:timeago/src/messages/ku_messages.dart';
+*/
 export 'package:timeago/src/messages/lookupmessages.dart';
+/*
 export 'package:timeago/src/messages/mn_messages.dart';
 export 'package:timeago/src/messages/ms_my_messages.dart';
 export 'package:timeago/src/messages/my_messages.dart';
@@ -45,4 +52,5 @@ export 'package:timeago/src/messages/ur_messages.dart';
 export 'package:timeago/src/messages/vi_messages.dart';
 export 'package:timeago/src/messages/zh_cn_messages.dart';
 export 'package:timeago/src/messages/zh_messages.dart';
+*/
 export 'package:timeago/src/timeago.dart';
